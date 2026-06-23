@@ -2,11 +2,11 @@
   "name": "ecommerce-api",
   "version": "1.0.0",
   "description": "API REST para E-commerce com Node.js e TypeScript",
-  "main": "dist/app.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
